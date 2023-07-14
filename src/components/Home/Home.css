@@ -1,0 +1,68 @@
+.container {
+  height: 100vh;
+  padding: 5rem;
+  box-sizing: border-box;
+}
+.heading {
+  font-size: 20px;
+}
+.banner-heading {
+  font-size: 1.5rem;
+}
+.home-section {
+  height: 100vh;
+  background-image: url('../../assests/images/boy.svg');
+  background-position-x: left;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.vector-graphics {
+  filter: drop-shadow(0 40px 10px rgba(0, 0, 0, 0.7));
+  animation: vectorAnimation 1s infinite alternate;
+}
+@keyframes vectorAnimation {
+  
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+.video-section {
+  height: 25rem;
+}
+.text {
+  font-size: 1.2rem;
+}
+.video-wrapper {
+  padding: 2rem;
+}
+
+.video-wrapper .video-player {
+  min-width: 20rem;
+  /* width: 30rem;
+  max-width: 40rem; */
+  margin-top: 1.5rem;
+
+  margin-left: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .video-section {
+    height: 40rem;
+  }
+  .video-wrapper {
+    display: column;
+  }
+}
+
+.course {
+  margin-bottom: 1rem;
+  transition: all 0.3s ease-in-out;
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 1rem;
+}
+.course:hover {
+  transform: translateY(-10px);
+}

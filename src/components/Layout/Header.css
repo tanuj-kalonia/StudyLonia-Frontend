@@ -1,0 +1,8 @@
+.footer-icons {
+  font-size: 2.5rem;
+  color: #1c9ce8;
+  transition: all 0.3s ease-in-out;
+}
+.footer-icons:hover {
+  color: #a8dcfa;
+}

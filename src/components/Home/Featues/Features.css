@@ -1,0 +1,43 @@
+.brandName {
+  color: linear-gradient(to right, #5f4ad8, #e64380);
+}
+.features-list {
+  font-size: 1.2rem;
+  word-spacing: 4px;
+  margin-left: -1rem;
+}
+.image {
+  height: 15rem;
+}
+.video-wrapper {
+  padding-bottom: 5rem;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.video-wrapper video {
+  margin-left: 5rem;
+  border: 1px solid rgba(0, 0, 0, 0.386);
+  width: 40%;
+  border-radius: 20px;
+  outline: none;
+}
+.video-heading {
+  margin-left: 1rem;
+  padding: 1rem;
+  width: 80%;
+}
+.container {
+  height: 80rem;
+}
+.b-and-f {
+  padding: 1rem;
+}
+.heading-para {
+  font-size: 1.2rem;
+}
+.features-points {
+  border: 2px solid orange;
+}
